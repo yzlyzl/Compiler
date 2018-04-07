@@ -1,6 +1,18 @@
+Book - 《Compilers: Principles, Techniques & Tools》second edition
+
 3 Lexical Analysis
 
 3.1 The Role of the Lexical Analyzer - 介绍Lexical Analyzer的工作流程；Tokens，Patterns，Lexemes；
 3.2 Input Buffering - 介绍读取Source Program的方法；
 3.3 Specification of Tokens - 介绍RE和相关概念，通过RE来表示Pattern；
 3.4 Recognition of Tokens - 
+    3.4.1 Transition Diagram - 介绍“转换图”，将Patterns转化为流程图，及其一般表示形式；
+    3.4.1，3.4.2，3.4.3 - Transition Diagram for relop，keywords/identifiers，number & whitespace；
+    3.4.4 - 基于Transition Diagram的Lexical Analyzer的基本流程（代码；考虑将所有Transition Diagram合一）；
+3.5 The Lexical-Analyzer Generator Lex
+3.6 Finite Automata - NFA，DFA，Transition Table，Transition Graph
+3.7 From Regular Expression to Automata
+    3.7.1 Conversion of an NFA to a DFA - *“Subset Construction”算法，从NFA构建至DFA
+    3.7.2，3.7.3 - 
+    3.7.4 Construction of an NFA from a Regular Expression - 
+    3.7.5 Efficiency of String-Processing Algorithms
